@@ -1,0 +1,15 @@
+-- Devices without WLAN
+
+-- Ubiquiti
+
+device('ubiquiti-edgerouter-lite', 'ubnt_edgerouter-lite', {
+        factory = false,
+        packages = {'-hostapd-mini'},
+        manifest_aliases = {
+                'ubnt-erx',
+        },
+})
+
+
+
+
