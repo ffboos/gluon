@@ -612,4 +612,3 @@ device('ubiquiti-unifi-swiss-army-knife-ultra', 'ubnt_uk-ultra', {
 })
 
 device('ubiquiti-nanostation-m-xw', 'ubnt_nanostation-m-xw')
-device('ubiquiti-nanostation-m-xw', 'ubnt_nanostation-m')
