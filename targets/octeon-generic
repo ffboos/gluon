@@ -4,10 +4,8 @@
 
 device('ubiquiti-edgerouter-lite', 'ubnt_edgerouter-lite', {
         factory = false,
+        sysupgrade_ext = '.tar',
         packages = {'-hostapd-mini'},
-        manifest_aliases = {
-                'ubnt-erx',
-        },
 })
 
 
